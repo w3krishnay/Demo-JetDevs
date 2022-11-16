@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Text = styled.span`
   font-weight: 400;
-  font-size: 2vmin;
+  font-size: calc(10px + 1vmin);;
   color: #9fa0a4;
   margin: 0 10px;
 
