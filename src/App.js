@@ -1,10 +1,7 @@
-import './App.css';
-import Leaderboard from './components/leaderboard';
+import Leaderboard from "./components/leaderboard";
 
 function App() {
-  return (
-       <Leaderboard />
-  );
+  return <Leaderboard />;
 }
 
 export default App;
