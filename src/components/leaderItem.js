@@ -11,7 +11,7 @@ import {
 
 const LeaderItem = ({ name, id, point, i, order }) => {
   const [fpoint, setFpoint] = useState(point);
-  const imgUrl = "https://picsum.photos/100" + "?random=" + id;
+  const imgUrl = `https://picsum.photos/100?random=${id}`;
 
   useEffect(() => {
     if (fpoint === point) return;
@@ -25,6 +25,7 @@ const LeaderItem = ({ name, id, point, i, order }) => {
     return () => {
       clearInterval(update);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [point]);
 
   return (
