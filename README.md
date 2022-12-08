@@ -1,3 +1,13 @@
+Demo for Leaderboard UI - Jet devs Homework
+
+Find the codesandbox demo here
+https://codesandbox.io/p/github/w3turbo/Demo-JetDevs/csb-smhcru/draft/xenodochial-bell
+
+For running project locally Just do following
+### `npm install`
+### `npm start`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

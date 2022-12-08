@@ -11,7 +11,7 @@ const LeaderView = styled.div`
   padding: 0 3vw;
   position: absolute;
   left: 0;
-  transition: all 0.3s ease-out;
+  transition: all 0.1s ease-out;
 `;
 
 export default LeaderView;

@@ -16,7 +16,7 @@ const LeaderItem = ({ name, id, point, i, order }) => {
   useEffect(() => {
     if (fpoint === point) return;
     var npoint = fpoint;
-    var duration = Math.floor(300 / (point - fpoint));
+    var duration = Math.floor(100 / (point - fpoint));
     let update = setInterval(() => {
       npoint += 1;
       setFpoint(npoint);
